@@ -26,7 +26,8 @@
       "WebFetch(domain:dev.blueledgers.com)",
       "Bash([ -f /Users/peak/Documents/GitHub/carmen-ui-test/jest.config.js ])",
       "Bash(npm install:*)",
-      "Bash(npx jest:*)"
+      "Bash(npx jest:*)",
+      "Bash(git init:*)"
     ],
     "deny": [],
     "ask": []
