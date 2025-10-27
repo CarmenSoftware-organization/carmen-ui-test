@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npx tsc:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_select_option",
+      "mcp__playwright__browser_take_screenshot",
+      "Read(//Users/peak/Documents/GitHub/**)",
+      "mcp__playwright__browser_close",
+      "Bash(pkill:*)",
+      "Bash(awk:*)",
+      "Bash(xargs kill:*)",
+      "mcp__playwright__browser_install",
+      "Bash(npx playwright test:*)",
+      "Bash(open:*)",
+      "Bash(chmod:*)",
+      "Bash([ -f /Users/peak/Documents/GitHub/carmen-ui-test/README.md ])",
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "Bash(./run-all-tests.sh:*)",
+      "Bash(tee:*)",
+      "Bash(npx playwright show-report)",
+      "WebFetch(domain:dev.blueledgers.com)",
+      "Bash([ -f /Users/peak/Documents/GitHub/carmen-ui-test/jest.config.js ])",
+      "Bash(npm install:*)",
+      "Bash(npx jest:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

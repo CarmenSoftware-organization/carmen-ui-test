@@ -1,0 +1,134 @@
+
+Running 7 tests using 1 worker
+
+[1A[2K[1/7] [chromium] › e2e/vendor-crud.spec.ts:75:7 › Vendor Management - CRUD Operations › CRUD-VEN-001: Create new vendor with all required fields
+[1A[2K[chromium] › e2e/vendor-crud.spec.ts:75:7 › Vendor Management - CRUD Operations › CRUD-VEN-001: Create new vendor with all required fields
+Navigated to Vendor page via hamburger menu
+
+[1A[2KStarting vendor creation test...
+
+[1A[2KFilled vendor name: Test Vendor 068458
+
+[1A[2KFilled description: Created by automated test at 2025-10-27T04:07:48.458Z
+
+[1A[2KSwitched to Address tab
+
+[1A[2KSwitched to Contact tab
+
+[1A[2KClicked save button
+
+[1A[2KVendor creation test completed
+
+[1A[2K[2/7] [chromium] › e2e/vendor-crud.spec.ts:249:7 › Vendor Management - CRUD Operations › CRUD-VEN-002: Read/View vendor list
+[1A[2K[chromium] › e2e/vendor-crud.spec.ts:249:7 › Vendor Management - CRUD Operations › CRUD-VEN-002: Read/View vendor list
+Navigated to Vendor page via hamburger menu
+
+[1A[2KStarting vendor list view test...
+
+[1A[2KVendor page loaded
+
+[1A[2KVendor table/list is visible
+
+[1A[2K✅ Found header: Name
+
+[1A[2K⚠️ Header not found: Code
+
+[1A[2K⚠️ Header not found: Email
+
+[1A[2K⚠️ Header not found: Phone
+
+[1A[2K✅ Found header: Status
+
+[1A[2K✅ Found header: Action
+
+[1A[2KVendor list view test completed
+
+[1A[2K[3/7] [chromium] › e2e/vendor-crud.spec.ts:281:7 › Vendor Management - CRUD Operations › CRUD-VEN-003: Update/Edit existing vendor
+[1A[2K[chromium] › e2e/vendor-crud.spec.ts:281:7 › Vendor Management - CRUD Operations › CRUD-VEN-003: Update/Edit existing vendor
+Navigated to Vendor page via hamburger menu
+
+[1A[2KStarting vendor edit test...
+
+[1A[2KClicked on vendor to open edit form
+
+[1A[2K⚠️ Save button not found
+
+[1A[2KVendor edit test completed
+
+[1A[2K[4/7] [chromium] › e2e/vendor-crud.spec.ts:373:7 › Vendor Management - CRUD Operations › CRUD-VEN-004: View vendor details
+[1A[2K[chromium] › e2e/vendor-crud.spec.ts:373:7 › Vendor Management - CRUD Operations › CRUD-VEN-004: View vendor details
+Navigated to Vendor page via hamburger menu
+
+[1A[2KStarting vendor view details test...
+
+[1A[2K⚠️ No clickable vendor name found
+
+[1A[2KVendor view details test completed
+
+[1A[2K[5/7] [chromium] › e2e/vendor-crud.spec.ts:415:7 › Vendor Management - CRUD Operations › CRUD-VEN-005: Search vendor functionality
+[1A[2K[chromium] › e2e/vendor-crud.spec.ts:415:7 › Vendor Management - CRUD Operations › CRUD-VEN-005: Search vendor functionality
+Navigated to Vendor page via hamburger menu
+
+[1A[2KStarting vendor search test...
+
+[1A[2KPerformed search with term: Test
+
+[1A[2K✅ Search functionality works
+
+[1A[2KVendor search test completed
+
+[1A[2K[6/7] [chromium] › e2e/vendor-crud.spec.ts:459:7 › Vendor Management - CRUD Operations › CRUD-VEN-006: Filter vendor by status
+[1A[2K[chromium] › e2e/vendor-crud.spec.ts:459:7 › Vendor Management - CRUD Operations › CRUD-VEN-006: Filter vendor by status
+Navigated to Vendor page via hamburger menu
+
+[1A[2KStarting vendor filter test...
+
+[1A[2KOpened filter dropdown
+
+[1A[2KApplied Active filter
+
+[1A[2K✅ Filter functionality works
+
+[1A[2KVendor filter test completed
+
+[1A[2K[7/7] [chromium] › e2e/vendor-crud.spec.ts:505:7 › Vendor Management - CRUD Operations › CRUD-VEN-007: Verify form validation on create
+[1A[2K[chromium] › e2e/vendor-crud.spec.ts:505:7 › Vendor Management - CRUD Operations › CRUD-VEN-007: Verify form validation on create
+Navigated to Vendor page via hamburger menu
+
+[1A[2KStarting vendor form validation test...
+
+[1A[2K✅ Found 1 validation error(s)
+
+[1A[2KVendor form validation test completed
+
+[1A[2K
+=== VENDOR CRUD TEST SUMMARY ===
+
+[1A[2KTests executed:
+
+[1A[2K1. Create new vendor with all fields
+
+[1A[2K2. Read/View vendor list
+
+[1A[2K3. Update/Edit existing vendor
+
+[1A[2K4. View vendor details
+
+[1A[2K5. Search vendor functionality
+
+[1A[2K6. Filter vendor by status
+
+[1A[2K7. Form validation on create
+
+[1A[2K
+Screenshots saved to: screenshots/vendor-*.png
+
+[1A[2K================================
+
+
+[1A[2K  7 passed (1.5m)
+
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
